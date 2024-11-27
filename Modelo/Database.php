@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "mysql-rhf.alwaysdata.net";
-    private $db_name = "rhf_rest_api_demo"; // Nombre de la BD sql. Modificar si hace falta
-    private $username = "rhf"; // Usuario de la base de datos (modificar si hace falta)
-    private $password = "Empedrado1"; // Contraseña de la base de datos (modificar si hace falta)
+    private $host = "localhost";
+    private $db_name = "rest_api_demo"; // Nombre de la BD sql. Modificar si hace falta
+    private $username = "root"; // Usuario de la base de datos (modificar si hace falta)
+    private $password = ""; // Contraseña de la base de datos (modificar si hace falta)
     public $conn;
 
     public function getConnection() {
